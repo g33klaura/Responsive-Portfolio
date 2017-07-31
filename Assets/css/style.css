@@ -1,183 +1,250 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  color: #777;
-  font-size: 14px;
-  background-image: url("../images/bkgd_seigaiha.png");
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #777;
+    font-size: 14px;
+    background-image: url("../images/bkgd_seigaiha.png");
 }
+
+
+
 
 /* Nav bar rules */
+
 .nav-bar {
-  background-color: #FFF;
-  border: 1px solid #CCC;
-  width: 100%;
-  height: 60px;
-  text-align: right;
-  word-spacing: 15px;
-  padding: 20px;
-  z-index: 400;
-  clear: both;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    width: 100%;
+    height: 60px;
+    text-align: right;
+    word-spacing: 15px;
+    padding: 20px;
+    z-index: 400;
+    clear: both;
 }
 
-.nav-bar ul li, li {
-  display: inline;
+.nav-bar ul li,
+li {
+    display: inline;
 }
 
 .nav-bar ul li a {
-  text-decoration: none;
-  color: DarkGrey;
+    text-decoration: none;
+    color: DarkGrey;
 }
+
+
+
 
 /* Main content */
+
 .content {
-  display: block;
-  max-width: 960px;
-  /* Suggestion from CCS Tricks for sticky footer */
-  min-height: calc(60vh - 100px);
+    display: block;
+    max-width: 960px;
+    /* Suggestion from CCS Tricks for sticky footer */
+    min-height: calc(60vh - 100px);
 }
 
-h1, h2, h3 {
-  font-family: Georgia, Times, "Times New Roman", serif;
-  font-weight: 600;
-  font-size: 24px;
+h1,
+h2,
+h3 {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: 600;
+    font-size: 24px;
 }
 
 #name {
-  color: #FFF;
-  background-color: #4aaaa5;
-  text-align: center;
-  font-size: 24px;
-  max-width: 270px;
-  height: 60px;
-  padding: 20px;
-  position: absolute;
-  top: 0;
-  left: 60px;
-  z-index: 500;
-  clear: both;
+    color: #FFF;
+    background-color: #4aaaa5;
+    text-align: center;
+    font-size: 24px;
+    max-width: 270px;
+    height: 60px;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 60px;
+    z-index: 500;
+    clear: both;
 }
 
 aside {
-  display: block;
-  margin: 0px auto;
-  color: #4aaaa5;
-  background-color: #FFF;
-  border: 0.5px solid #DDD;
-  max-width: 270px;
-  padding: 20px;
-  position: absolute;
-  float: right;
-  top: 90px;
-  right: 20px;
+    display: block;
+    margin: 0px auto;
+    color: #4aaaa5;
+    background-color: #FFF;
+    border: 0.5px solid #DDD;
+    max-width: 270px;
+    padding: 20px;
+    position: absolute;
+    float: right;
+    top: 90px;
+    right: 20px;
 }
 
 aside h3 {
-  font-size: 18px;
-  font-weight: 400;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 #icons {
-  margin: 0px auto;
-  width: 100%;
+    margin: 0px auto;
+    width: 100%;
 }
 
 footer {
-  display: block;
-  position: relative;
-  top: 50px;
-  background-color: #666;
-  border-top: 5px;
-  border-style: solid;
-  border-color: #4aaaa5;
-  width: 100%;
-  height: 100px;
-  text-align: center;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 12px;
-  color: DarkGrey;
-  padding: 40px;
-  clear: both;
+    display: block;
+    position: relative;
+    top: 50px;
+    background-color: #666;
+    border-top: 5px;
+    border-style: solid;
+    border-color: #4aaaa5;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 12px;
+    color: DarkGrey;
+    padding: 40px;
+    clear: both;
 }
 
+
+
+
 /* Rules for About Page (index) */
+
 .about {
-  display: block;
-  color: #4aaaa5;
-  background-color: #FFF;
-  border: 0.5px solid #DDD;
-  max-width: 650px;
-  padding: 20px;
-  position: relative;
-  left: 60px;
-  top: 30px;
-  clear: both;
+    display: block;
+    color: #4aaaa5;
+    background-color: #FFF;
+    border: 0.5px solid #DDD;
+    max-width: 650px;
+    padding: 20px;
+    position: relative;
+    left: 60px;
+    top: 30px;
+    clear: both;
 }
 
 #bio img {
-  clear: right;
-  float: left;
-  margin-right: 20px;
+    clear: right;
+    float: left;
+    margin-right: 20px;
 }
 
 #bio p {
-  color: #777;
-  font-size: 14px;
-  font-weight: 100;
-  line-height: 20px;
-  position: relative;
-  top: 0;
+    color: #777;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 20px;
+    position: relative;
+    top: 0;
 }
+
+
+
 
 /* Rules for Contact Page */
 
 
 /* Rules for Portlfolio Page */
+
 .projects {
-  position: relative;
-  float: left;
-  width: 274px;
-  margin: 20px 0 25px;
-  overflow: hidden;
-  margin-right: 15px;
+    position: relative;
+    float: left;
+    width: 274px;
+    margin: 20px 0 25px;
+    overflow: hidden;
+    margin-right: 15px;
 }
 
 .projects img {
-  width: 100%;
-  border: 0;
+    width: 100%;
+    border: 0;
 }
 
 .projects h3 {
-  position: absolute;
-  bottom: 20px;
-  width: 100%;
-  padding: 20px;
-  text-align: center;
-  background-color: #4aaaa5;
-  color: White;
-  font-size: 18px;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: White;
+    font-size: 18px;
 }
+
+
+
 
 /* Media Queries */
-@media only screen and (max-width: 980px) {
 
+@media only screen and (max-width: 980px) {
+    /* Image on left with p dropped below it */
+    .about {
+        max-width: 400px;
+    }
+
+    .about img {
+        width: 100%;
+    }
 }
+
 
 @media only screen and (max-width: 768px) {
 
-/* Aside needs to move to the bottom */
-aside {
-  position: relative;
-  bottom: 50%;
-  margin-bottom: 80px;
+    /* About goes wider than either other queries */
+    .about {
+        max-width: 550px;
+    }
+
+    /* Photo next to paragraph again */
+    #bio img {
+        width: 50%;
+        max-height: 50%;
+        overflow: auto;
+    }
+
+    /* Aside needs to move to the bottom & be as wide as section above */
+    aside {
+        position: relative;
+        bottom: 50%;
+        margin-bottom: 80px;
+        width: 100%;
+        float: left;
+        left: 60px;
+        max-width: 550px;
+    }
 }
 
-}
 
 @media only screen and (max-width: 640px) {
 
-  /* Aside still at bottom */
+    /* Aside still at bottom */
+    aside {}
 
+    /* Header moves to top, full width */
+    #name {
+        width: 100%;
+        max-width: 521px;
+        margin: 0 auto;
+    }
+
+    /* Nav-bar goes under header, full width */
+    .nav-bar {
+        position: relative;
+        top: 60px;
+    }
+
+    /* Content part resizes and things move (ie. photo above paragraph in About) */
+    #bio img {
+        width: 100%;
+        max-height: 50%;
+        overflow: auto;
+    }
 }
