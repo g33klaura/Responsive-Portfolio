@@ -9,6 +9,7 @@ body {
   background-image: url("../images/bkgd_seigaiha.png");
 }
 
+/* Nav bar rules */
 .nav-bar {
   background-color: #FFF;
   border: 1px solid #CCC;
@@ -30,6 +31,7 @@ body {
   color: DarkGrey;
 }
 
+/* Main content */
 .content {
   display: block;
   max-width: 960px;
@@ -54,34 +56,6 @@ h1, h2, h3 {
   left: 60px;
   z-index: 500;
   clear: both;
-}
-
-.about {
-  display: block;
-  color: #4aaaa5;
-  background-color: #FFF;
-  border: 0.5px solid #DDD;
-  max-width: 650px;
-  padding: 20px;
-  position: relative;
-  left: 60px;
-  top: 30px;
-  clear: both;
-}
-
-#bio img {
-  clear: right;
-  float: left;
-  margin-right: 20px;
-}
-
-#bio p {
-  color: #777;
-  font-size: 14px;
-  font-weight: 100;
-  line-height: 20px;
-  position: relative;
-  top: 0;
 }
 
 aside {
@@ -126,38 +100,62 @@ footer {
   clear: both;
 }
 
+/* Rules for About Page (index) */
+.about {
+  display: block;
+  color: #4aaaa5;
+  background-color: #FFF;
+  border: 0.5px solid #DDD;
+  max-width: 650px;
+  padding: 20px;
+  position: relative;
+  left: 60px;
+  top: 30px;
+  clear: both;
+}
+
+#bio img {
+  clear: right;
+  float: left;
+  margin-right: 20px;
+}
+
+#bio p {
+  color: #777;
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 20px;
+  position: relative;
+  top: 0;
+}
 
 /* Rules for Contact Page */
 
 
 /* Rules for Portlfolio Page */
-
-/* Has ugly border so I can see what the heck I'm doing */
-.gallery tr td {
-  border: 3px solid Blue;
-  border-spacing: 5px;
-  padding: 15px;
-  background-image: url("http://www.fillmurray.com/g/140/100");
-  background-repeat: no-repeat;
-  height: 100px;
-  text-align: center;
-  vertical-align: bottom;
+.projects {
+  position: relative;
+  float: left;
+  width: 274px;
+  margin: 20px 0 25px;
+  overflow: hidden;
+  margin-right: 15px;
 }
 
-/* How to get the text w/ teal behind over the images?...
-Do they need ANOTHER div? */
-#hangman {
-
+.projects img {
+  width: 100%;
+  border: 0;
 }
 
-/* Fix actual colors */
-#hangman p {
+.projects h3 {
   position: absolute;
-  bottom: 0;
+  bottom: 20px;
+  width: 100%;
+  padding: 20px;
   text-align: center;
-  background-color: Teal;
+  background-color: #4aaaa5;
   color: White;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 /* Media Queries */
@@ -167,8 +165,12 @@ Do they need ANOTHER div? */
 
 @media only screen and (max-width: 768px) {
 
+/* Aside needs to move to the bottom */
+
 }
 
 @media only screen and (max-width: 640px) {
+
+  /* Aside still at bottom */
 
 }
