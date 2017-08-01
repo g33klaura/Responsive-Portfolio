@@ -36,7 +36,9 @@ li {
     color: DarkGrey;
 }
 
-
+.links {
+  float: right;
+}
 
 
 /* Main content */
@@ -225,6 +227,11 @@ footer {
 
 @media only screen and (max-width: 640px) {
 
+/* Content resized? */
+.content {
+  max-width: 300px;
+}
+
     /* Aside still at bottom */
     aside {}
 
@@ -233,15 +240,21 @@ footer {
         width: 100%;
         max-width: 521px;
         margin: 0 auto;
+        left: 0;
     }
 
     /* Nav-bar goes under header, full width */
     .nav-bar {
-        position: relative;
-        top: 60px;
+        
+
     }
 
     /* Content part resizes and things move (ie. photo above paragraph in About) */
+
+    #bio {
+      max-width: 300px;
+    }
+
     #bio img {
         width: 100%;
         max-height: 50%;
