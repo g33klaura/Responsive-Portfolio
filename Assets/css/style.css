@@ -12,8 +12,6 @@ body {
 
 
 
-
-
 /* Nav bar rules */
 
 .nav-bar {
@@ -38,13 +36,12 @@ li {
     color: DarkGrey;
 }
 
+
 /*
 .links {
     float: right;
 }
 */
-
-
 
 
 /* Main content */
@@ -123,11 +120,10 @@ footer {
 
 
 
-
-
 /* Rules for About Page (index) */
 
 .about {
+    overflow: hidden;
     display: block;
     color: #4aaaa5;
     background-color: #FFF;
@@ -154,8 +150,6 @@ footer {
     position: relative;
     top: 0;
 }
-
-
 
 
 
@@ -189,8 +183,6 @@ footer {
     color: White;
     font-size: 18px;
 }
-
-
 
 
 
