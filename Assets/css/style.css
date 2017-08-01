@@ -12,6 +12,8 @@ body {
 
 
 
+
+
 /* Nav bar rules */
 
 .nav-bar {
@@ -36,9 +38,13 @@ li {
     color: DarkGrey;
 }
 
+/*
 .links {
-  float: right;
+    float: right;
 }
+*/
+
+
 
 
 /* Main content */
@@ -69,7 +75,6 @@ h3 {
     position: absolute;
     top: 0;
     left: 60px;
-    z-index: 500;
     clear: both;
 }
 
@@ -118,6 +123,8 @@ footer {
 
 
 
+
+
 /* Rules for About Page (index) */
 
 .about {
@@ -151,6 +158,8 @@ footer {
 
 
 
+
+
 /* Rules for Contact Page */
 
 
@@ -180,6 +189,8 @@ footer {
     color: White;
     font-size: 18px;
 }
+
+
 
 
 
@@ -226,33 +237,36 @@ footer {
 
 
 @media only screen and (max-width: 640px) {
-
-/* Content resized? */
-.content {
-  max-width: 300px;
-}
-
-    /* Aside still at bottom */
-    aside {}
+    /* Content resized? */
+    .content {
+        max-width: 300px;
+    }
 
     /* Header moves to top, full width */
     #name {
         width: 100%;
-        max-width: 521px;
+        max-width: 640px;
         margin: 0 auto;
         left: 0;
     }
 
     /* Nav-bar goes under header, full width */
     .nav-bar {
-        
+        position: relative;
+        top: 60px;
+    }
 
+    .links {
+        text-align: center;
     }
 
     /* Content part resizes and things move (ie. photo above paragraph in About) */
+    .about {
+        top: 75px;
+    }
 
     #bio {
-      max-width: 300px;
+        max-width: 300px;
     }
 
     #bio img {
